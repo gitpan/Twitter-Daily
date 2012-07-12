@@ -1,6 +1,11 @@
 Change Log for Twitter Daily
 ============================
 
+v0.1.1
+------
+
+- Moved modules dependencies from configure to build
+
 v0.1.0
 ------
 
