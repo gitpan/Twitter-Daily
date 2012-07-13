@@ -1,6 +1,11 @@
 Change Log for Twitter Daily
 ============================
 
+v0.1.2
+------
+
+- Added Test::Kwalitee and Test::Pod to test requirements
+
 v0.1.1
 ------
 

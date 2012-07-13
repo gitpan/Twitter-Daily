@@ -18,7 +18,7 @@ my $debugList;
 ### Non Plus Ultra !!
 
 my $NAME = "Twitter Daily News";
-my $VERSION = "0.1.0";
+my $VERSION = "0.1.2";
 my $AUTHOR = "Victor A. Rodriguez (Bit-Man)";
 my $CONTACT = 'http://www.bit-man.com.ar';
 my $SCREENWIDTH = 69;

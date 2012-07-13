@@ -1,6 +1,6 @@
 ---
 name: Twitter-Daily
-version: v0.1.0
+version: v0.1.2
 author:
   - Bit-Man
 abstract: Twitter Daily News read your twitter timeline and stores them into your favorite blog.

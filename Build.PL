@@ -14,6 +14,9 @@ my $builder = Module::Build->new(
         'Error'  => 0, 'Net::Twitter'  => 0,
         'File::MkTemp'  => 0, 'HTTP::Date'  => 0 
     },
+    test_requires => {
+        'Test::Kwalitee' => 0, 'Test::Pod' => 0
+    },
     requires => {
         'perl' => 5.006,
     },
