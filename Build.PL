@@ -10,15 +10,13 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/Twitter/Daily.pm',
     build_requires => {
         'Test::More' => 0,
+        'Test::Kwalitee' => 0, 'Test::Pod' => 0,
+    },
+    requires => {       
+        'perl' => 5.006,
         'Date::Parse' => 0, 'Time::Local' => 0, 
         'Error'  => 0, 'Net::Twitter'  => 0,
-        'File::MkTemp'  => 0, 'HTTP::Date'  => 0 
-    },
-    test_requires => {
-        'Test::Kwalitee' => 0, 'Test::Pod' => 0
-    },
-    requires => {
-        'perl' => 5.006,
+        'File::MkTemp'  => 0, 'HTTP::Date'  => 0, 
     },
     script_files => 'bin/twitterDaily.pl' ,
     add_to_cleanup      => [ 'Twitter-Daily-*' ],

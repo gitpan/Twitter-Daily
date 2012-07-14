@@ -7,7 +7,7 @@ use Net::Twitter;
 use File::MkTemp;
 use HTTP::Date 'parse_date';
 	
-our $VERSION="0.1.2";
+our $VERSION="0.1.3";
 our @EXPORT = qw(new);
 
 use constant PASS => 1;
